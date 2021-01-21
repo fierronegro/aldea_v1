@@ -1,0 +1,155 @@
+/* textos */
+h4 {color: rgb(255, 255, 255); font-family: 'Comfortaa',  cursive; size: 16pt;font-weight: 300}
+h1 {color: #E4004E;font-family:'Comfortaa',  cursive; size: 33pt;font-weight: 700; text-align: center}
+h2 {color: #630023;font-family: 'DM Serif Text', serif; size: 40pt; text-align: left}
+.tit_video {font-family: 'DM Serif Text', serif; size: 14pt; text-align: left !important}
+
+p {color: black; font-family: 'Barlow', sans-serif; size:18px; font-weight: 300;}
+button {width: 100px;
+height: 30px;background-color:#E4004E;border: white;font-family:'Comfortaa',  cursive;size: 12pt;color: white;}
+button:hover {width: 100px;
+height: 30px;background-color:black;border: white;font-family:'Comfortaa',  cursive;size: 12pt;color: white;}
+button:active {width: 100px;
+height: 30px;background-color: dimgrey;border: white;font-family:'Comfortaa',  cursive;size: 12pt;color: white;}
+.titulo_blanco {color: #ffffff !important;}
+.txt_blanco {color: #ffffff !important;}
+.txt_blanco_futer {color: #ffffff;font-size: 10pt; text-align: center !important;}
+.titular_blanco {color: #ffffff !important;}
+
+.tit_video_mob {text-align: center; font-size: 22pt !important}
+.titular_video_mob {text-align: center; color: #ffffff; font-size: 22pt !important}
+.txt_blanco_chico {text-align: center; color: #ffffff; font-size: 12pt !important;}
+
+/* bloques */
+.lafoto
+    {background-image: url(../img/mico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    top: 70px;
+    height: auto;}
+
+.lafoto_mobile
+    {
+    background-image: url(../img/mico_chico.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    
+    }    
+
+.foto_noticia {width:100%;height: 210px;border-radius: 6px;}
+
+.foto_mediana {width:100%;height: 160px;border-radius: 6px;}
+
+.foto_chica {width: 100%;height: 100px;}
+
+
+.futer {
+    width: 1440px;
+    height: auto;
+    left: 0px;
+   
+    background: #00960D;}
+
+.cuadronoticias {width: 480px;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    box-sizing: border-box;}
+
+.para_header {position: fixed; z-index: 1;
+    flex-wrap: nowrap !important;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #630023;}
+
+.bloque_noticias {
+    align-items: center;
+    background: #DDD8D8;height: 100%;margin: 0%auto;}
+
+.bloque_podcast {
+        height:auto;
+        background: #A30039;}    
+
+.bloque_videos {
+    height:auto;
+    background: #380D1C;}
+
+.noticias {
+    height: 300px;
+    background-color: #ffffff;
+    margin: 20px;width: 30%;}
+
+.bloque_1 {display: flex; justify-content: space-between;}
+
+.bloque2 {background-color: #ffffff;}
+
+.fondooscuro {
+    background-color: #ffffff;border-radius: 8px;
+    padding: 10px;
+    }
+
+.fondo_podcast {
+    background-color: transparent;
+    padding: 10px;
+    border-left:2px solid #ffffff;}
+
+.linea {
+    border-top: 1px solid #ffffff;
+    height: 2px;
+    max-width: 500px;
+    padding: 0;
+    margin: 20px auto 0 auto;}
+    
+
+.destacamos_2 {height: 100%;padding: 0;}
+
+
+/* widgets */
+.wid_tiempo {z-index: 2;width: 100%;} 
+
+/* menu hamburguesa */
+*{font-family: Arial;color: #ffffff;}
+ul{display:none;}
+input:checked  ~ ul{display:block;}
+input { display: none;}
+label {box-sizing: border-box;display: inline-block; border: none; background-color: #E4004E;  border-radius: 5px; width: 80px;  height: 70px;  line-height: 60px; font-weight: bold; font-size: 70px; text-align: center;user-select: none;}
+    /* Estilo del boton cuando se pasa el mouse por encima*/
+label:hover{background: grey;}
+    /* Estilo del boton cuando el menú está expandido*/
+input:checked ~ label {background: lightgrey;}
+ul{ margin-top:0; padding: 0;width: 200px;}
+li {display: block; background:#630023;  margin: 0; padding: 10px; list-style: none; border-bottom:1px solid grey;color: aliceblue ; font-family: 'Comfortaa',  cursive;size: 10pt;}
+    /*Estilo cuando el mouse pasa encima de cada link del menu*/
+li:hover { filter: brightness(110%);}
+.hamburg {position: fixed;top: 100px;z-index: 1}
+.hamburg_mobile {position: fixed;top: 100px;z-index: 1}
+
+
+/* posiciones específicas */
+
+.logoaldea {margin-top: 100px;width:100%;padding-left: 90px;}
+
+.logoaldea_mobile {padding-left:70px;width:400px;margin-top: 120px;}
+
+.reproductor {margin-top: 120px; width: 100%;}
+
+.reproductor2 {width: 100%;}
+
+.iconito {width:10%;padding-top: 5%;}
+
+.iconito_mobile {width:20%;padding-top: 10px;}
+
+.iconito_tablet {width:20%;padding-top: 20px;}
+
+.contacto {position:absolute; display:flex;justify-content:flex-end;top: 8px;}
+
+.weacsm {display:flex;flex-direction:row;justify-content: space-between;bottom: 10px;}
+
+.filete_horizontal {border-top:1px solid #ffffff}
+
+
+
